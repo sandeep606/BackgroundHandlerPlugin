@@ -1,0 +1,15 @@
+{
+  "name": "bgapphandler",
+  "version": "1.0.0",
+  "description": "BackgroundHandle, iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BackgroundHandle",
+    "iOS"
+  ],
+  "author": "Evontech",
+  "license": "ISC"
+}
