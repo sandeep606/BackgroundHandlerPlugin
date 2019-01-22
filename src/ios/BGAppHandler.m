@@ -19,7 +19,6 @@
     UIBackgroundTaskIdentifier bgTask = UIBackgroundTaskInvalid;
     bgTask = [[UIApplication sharedApplication]
          beginBackgroundTaskWithExpirationHandler:^{
-            //  [[UIApplication sharedApplication] endBackgroundTask:bgTask];
     }];
    
    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
