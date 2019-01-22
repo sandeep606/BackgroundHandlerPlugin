@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>BGAppHandler</name>
     <js-module name="BGAppHandler" src="www/BGAppHandler.js">
-        <clobbers target="cordova.plugins.BGAppHandler" />
+        <clobbers target="BGAppHandler" />
     </js-module>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
